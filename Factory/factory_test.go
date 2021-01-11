@@ -22,4 +22,4 @@ func TestNewCars(t *testing.T) {
 
 }
 
-//  go test factory_test.go factory.go
+//  go test -v factory_test.go factory.go
