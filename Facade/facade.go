@@ -93,6 +93,7 @@ func (p *PoliceInspection) CheckLetterSecurity(content string) bool {
 	return true
 }
 
+// 将相关联性的子系统的集合进行综合，完成一系列的业务逻辑
 type SampleFacade struct {
 	SampleLetters
 	PoliceInspection
